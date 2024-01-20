@@ -1,0 +1,8 @@
+#FROM alpine
+FROM openjdk:17-jdk-alpine
+COPY helloWorld.class  .
+CMD java helloWorld
+#which os we need?
+#install jdk
+#copy java code 
+#run java code3
